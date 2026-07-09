@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — ACC-WA</title>
+  <meta name="description" content="Upcoming ACC-WA events: Novruz Festival, mugham concerts, community dinners, language class enrollment and more in Seattle and Redmond, WA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="navbar" class="navbar scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="ACC-WA Logo" class="nav-logo-img" />
+        <div class="nav-logo-text">
+          <span class="nav-logo-abbr" style="color:var(--green)">ACC-WA</span>
+          <span class="nav-logo-full" style="color:var(--green-mid)">Azerbaijani Cultural Center</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html"      class="nav-link" style="color:var(--text)">Home</a>
+        <a href="about.html"      class="nav-link" style="color:var(--text)">About Us</a>
+        <a href="programs.html"   class="nav-link" style="color:var(--text)">Programs</a>
+        <a href="events.html"     class="nav-link active" style="color:var(--green);font-weight:700">Events</a>
+        <a href="community.html"  class="nav-link" style="color:var(--text)">Community</a>
+        <a href="gallery.html"    class="nav-link" style="color:var(--text)">Gallery</a>
+        <a href="index.html#locations" class="nav-link" style="color:var(--text)">Locations</a>
+        <a href="index.html#contact"   class="nav-link" style="color:var(--text)">Contact</a>
+        <a href="index.html#donate"    class="btn btn-primary btn-sm">Donate</a>
+      </nav>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <span style="background:var(--green)"></span>
+        <span style="background:var(--green)"></span>
+        <span style="background:var(--green)"></span>
+      </button>
+    </div>
+    <div class="nav-mobile-menu" id="nav-mobile-menu">
+      <a href="index.html"     class="nav-mobile-link">Home</a>
+      <a href="about.html"     class="nav-mobile-link">About Us</a>
+      <a href="programs.html"  class="nav-mobile-link">Programs</a>
+      <a href="events.html"    class="nav-mobile-link" style="color:var(--green);font-weight:700">Events</a>
+      <a href="community.html" class="nav-mobile-link">Community</a>
+      <a href="gallery.html"   class="nav-mobile-link">Gallery</a>
+      <a href="index.html#locations" class="nav-mobile-link">Locations</a>
+      <a href="index.html#contact"   class="nav-mobile-link">Contact</a>
+      <a href="index.html#donate"    class="btn btn-primary">Donate Now</a>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <div class="page-breadcrumb"><a href="index.html">Home</a> <span>/</span> Events</div>
+      <h1 class="page-hero-title">Events &amp; Calendar</h1>
+      <p class="page-hero-sub">Festivals, concerts, community dinners, and cultural celebrations</p>
+    </div>
+  </div>
+
+  <main>
+    <!-- UPCOMING EVENTS -->
+    <section class="events-section" style="padding:100px 0">
+      <div class="events-bg"></div>
+      <div class="container">
+        <div class="section-header section-header-light">
+          <div class="section-eyebrow section-eyebrow-gold">2026 Calendar</div>
+          <h2 class="section-title section-title-light">Upcoming Events</h2>
+          <div class="section-rule section-rule-light"><span class="rule-line"></span><span class="rule-diamond">◆</span><span class="rule-line"></span></div>
+        </div>
+        <div class="events-list">
+          <div class="event-card fade-up" id="event-novruz">
+            <div class="event-date-block"><div class="event-month">MAR</div><div class="event-day">20</div></div>
+            <div class="event-info">
+              <div class="event-tag">Annual Celebration</div>
+              <h3 class="event-title">Novruz Spring Festival 2026</h3>
+              <p class="event-meta"><span>📍 Seattle Center — Fisher Pavilion</span><span>⏰ 12:00 PM – 6:00 PM</span></p>
+              <p class="event-desc">Our flagship annual celebration welcoming the Persian New Year with traditional music, dance, cuisine, fire-jumping, and family activities for all ages. Open to the entire community — all are welcome.</p>
+            </div>
+            <a href="index.html#contact" class="event-register btn btn-secondary-dark">Register</a>
+          </div>
+          <div class="event-card fade-up" id="event-cooking">
+            <div class="event-date-block"><div class="event-month">JUN</div><div class="event-day">14</div></div>
+            <div class="event-info">
+              <div class="event-tag">Cuisine</div>
+              <h3 class="event-title">Azerbaijani Summer Cooking Workshop</h3>
+              <p class="event-meta"><span>📍 Redmond Community Center</span><span>⏰ 2:00 PM – 5:00 PM</span></p>
+              <p class="event-desc">Learn to prepare traditional Azerbaijani summer dishes including Dushbara, Plov, and seasonal salads. Hands-on class led by experienced community chefs. Family-friendly.</p>
+            </div>
+            <a href="index.html#contact" class="event-register btn btn-secondary-dark">Register</a>
+          </div>
+          <div class="event-card fade-up" id="event-language">
+            <div class="event-date-block"><div class="event-month">AUG</div><div class="event-day">15</div></div>
+            <div class="event-info">
+              <div class="event-tag">Education</div>
+              <h3 class="event-title">Fall Language Class Enrollment Opens</h3>
+              <p class="event-meta"><span>📍 Redmond Community Center</span><span>⏰ Online &amp; In-Person</span></p>
+              <p class="event-desc">Enrollment opens for the Fall 2026 semester of Azerbaijani language instruction. Beginner, intermediate, and heritage speaker tracks available. Limited spots — enroll early.</p>
+            </div>
+            <a href="index.html#contact" class="event-register btn btn-secondary-dark">Enroll</a>
+          </div>
+          <div class="event-card fade-up" id="event-mugham">
+            <div class="event-date-block"><div class="event-month">SEP</div><div class="event-day">27</div></div>
+            <div class="event-info">
+              <div class="event-tag">Cultural Arts</div>
+              <h3 class="event-title">An Evening of Mugham — Traditional Concert</h3>
+              <p class="event-meta"><span>📍 Benaroya Hall, Seattle</span><span>⏰ 7:00 PM – 10:00 PM</span></p>
+              <p class="event-desc">A refined evening featuring live Azerbaijani mugham music performed by visiting artists from Baku. Join us for an unforgettable cultural experience in a world-class venue.</p>
+            </div>
+            <a href="index.html#contact" class="event-register btn btn-secondary-dark">Get Tickets</a>
+          </div>
+          <div class="event-card fade-up" id="event-gala">
+            <div class="event-date-block"><div class="event-month">OCT</div><div class="event-day">11</div></div>
+            <div class="event-info">
+              <div class="event-tag">Annual Gala</div>
+              <h3 class="event-title">Annual Community Gala &amp; Fundraiser</h3>
+              <p class="event-meta"><span>📍 Hyatt Regency Bellevue</span><span>⏰ 6:00 PM – 10:00 PM</span></p>
+              <p class="event-desc">Our annual black-tie fundraiser supporting ACC-WA programs. An elegant evening of Azerbaijani cuisine, cultural performances, and recognition of community leaders. Sponsorship opportunities available.</p>
+            </div>
+            <a href="index.html#donate" class="event-register btn btn-secondary-dark">Sponsor</a>
+          </div>
+          <div class="event-card fade-up" id="event-youth-launch">
+            <div class="event-date-block"><div class="event-month">NOV</div><div class="event-day">8</div></div>
+            <div class="event-info">
+              <div class="event-tag">Youth</div>
+              <h3 class="event-title">Youth Cultural Program — Grand Launch</h3>
+              <p class="event-meta"><span>📍 Redmond Location</span><span>⏰ 1:00 PM – 4:00 PM</span></p>
+              <p class="event-desc">Official launch of our new youth cultural initiative in Redmond. Meet the program leaders, tour the space, and enroll your children in ACC-WA's newest program.</p>
+            </div>
+            <a href="index.html#contact" class="event-register btn btn-secondary-dark">RSVP</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAST HIGHLIGHTS -->
+    <section class="section" style="background:var(--ivory)">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">Looking Back</div>
+          <h2 class="section-title">Past Event Highlights</h2>
+          <div class="section-rule"><span class="rule-line"></span><span class="rule-diamond">◆</span><span class="rule-line"></span></div>
+        </div>
+        <div class="past-events-grid">
+          <div class="past-event-card fade-up">
+            <img src="gallery_novruz.png" alt="Novruz Festival" class="past-event-img" />
+            <div class="past-event-info">
+              <div class="event-tag">Annual Celebration</div>
+              <h4 class="past-event-title">Novruz Spring Festival 2025</h4>
+              <p class="past-event-desc">Over 300 community members gathered to celebrate the spring equinox with music, dance, traditional cuisine, and cultural activities.</p>
+            </div>
+          </div>
+          <div class="past-event-card fade-up">
+            <img src="gallery_music.png" alt="Mugham Concert" class="past-event-img" />
+            <div class="past-event-info">
+              <div class="event-tag">Cultural Arts</div>
+              <h4 class="past-event-title">Evening of Mugham 2025</h4>
+              <p class="past-event-desc">A sold-out evening of traditional Azerbaijani mugham at Seattle's premier concert venue, attended by both the diaspora and the broader Seattle public.</p>
+            </div>
+          </div>
+          <div class="past-event-card fade-up">
+            <img src="gallery_food.png" alt="Cuisine Event" class="past-event-img" />
+            <div class="past-event-info">
+              <div class="event-tag">Cuisine</div>
+              <h4 class="past-event-title">Azerbaijani Food Festival 2025</h4>
+              <p class="past-event-desc">A showcase of Azerbaijani culinary heritage featuring cooking demos, tasting stations, and recipe sharing from community members across generations.</p>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:48px">
+          <a href="gallery.html" class="btn btn-primary">View Full Gallery →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER CTA -->
+    <section class="section" style="background:var(--sage);padding:72px 0">
+      <div class="container" style="text-align:center">
+        <div class="section-eyebrow">Stay Informed</div>
+        <h2 class="section-title" style="margin-bottom:16px">Never Miss an Event</h2>
+        <p style="color:var(--green-mid);max-width:520px;margin:0 auto 32px">Sign up for our newsletter to receive event announcements, program updates, and community news directly in your inbox.</p>
+        <a href="index.html#contact" class="btn btn-primary btn-lg">Subscribe to Newsletter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="footer-brand">
+          <img src="logo.png" alt="ACC-WA" class="footer-logo" />
+          <p class="footer-tagline">Preserving Azerbaijani heritage<br/>in the Pacific Northwest.</p>
+          <p class="footer-nonprofit">A registered 501(c)(3) non-profit organization</p>
+        </div>
+        <div class="footer-cols-wrap">
+          <div class="footer-links-col">
+            <div class="footer-col-title">Organization</div>
+            <a href="about.html"     class="footer-link">About Us</a>
+            <a href="programs.html"  class="footer-link">Programs</a>
+            <a href="events.html"    class="footer-link">Events</a>
+            <a href="community.html" class="footer-link">Community</a>
+            <a href="gallery.html"   class="footer-link">Gallery</a>
+          </div>
+          <div class="footer-links-col">
+            <div class="footer-col-title">Get Involved</div>
+            <a href="index.html#donate"  class="footer-link">Donate</a>
+            <a href="index.html#contact" class="footer-link">Volunteer</a>
+            <a href="index.html#contact" class="footer-link">Membership</a>
+            <a href="index.html#contact" class="footer-link">Sponsor an Event</a>
+          </div>
+        </div>
+      </div>
+      <!-- Location bar -->
+      <div class="footer-location-bar">
+        <div class="container footer-location-inner">
+          <div class="footer-location-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1C5.24 1 3 3.24 3 6c0 3.75 5 9 5 9s5-5.25 5-9c0-2.76-2.24-5-5-5z" fill="rgba(185,154,74,0.9)"/><circle cx="8" cy="6" r="1.8" fill="white"/></svg>
+            Redmond, WA
+          </div>
+          <div class="footer-location-divider"></div>
+          <div class="footer-location-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4z" stroke="rgba(185,154,74,0.9)" stroke-width="1.4"/><path d="M2 4l6 5 6-5" stroke="rgba(185,154,74,0.9)" stroke-width="1.4" stroke-linecap="round"/></svg>
+            <a href="mailto:ACC-WA@outlook.com" class="footer-location-link">ACC-WA@outlook.com</a>
+          </div>
+          <div class="footer-location-divider"></div>
+          <div class="footer-location-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 3h2l1 3-1.5 1.5a9 9 0 0 0 3 3L9 9l3 1v2a1 1 0 0 1-1 1A11 11 0 0 1 2 4a1 1 0 0 1 1-1z" stroke="rgba(185,154,74,0.9)" stroke-width="1.4" stroke-linejoin="round"/></svg>
+            <a href="tel:+14253268791" class="footer-location-link">425-326-8791</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2026 Azerbaijani Cultural Center Of Washington State. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
